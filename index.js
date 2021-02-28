@@ -25,7 +25,7 @@ async function startServer() {
       res.send(test);
     });
 
-    let port = process.env.PORT || 5050;
+    let port = process.env.PORT || 8080;
     app.listen(port, (err, res) => {
       console.log(`Listening to port : ${port} ...`);
     });
